@@ -18,9 +18,7 @@ button.addEventListener("click", () => {
   })
     .then((res) => res.json())
     .then((data) => {
-      alert(
-        "Account created successfully! Please go to login to create a todo"
-      );
+      alert("Account created successfully!");
       window.location.replace(`../signin/signin.html`);
     });
 });
