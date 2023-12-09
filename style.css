@@ -53,6 +53,10 @@ body {
   padding: 20px 80px;
   background-color: #e3e6f3;
   box-shadow: o 5px 15px rgba(0, 0, 0, 0.06);
+  z-index: 99;
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 #navbar {
   display: flex;
@@ -104,4 +108,21 @@ body {
 }
 
 #hero h4 {
+  padding-bottom: 15px;
+}
+
+#hero h1 {
+  color: #088178;
+}
+
+#hero button {
+  background-image: url(./img/button.png);
+  background-color: transparent;
+  color: #088178;
+  border: 0;
+  padding: 14px 80px 14px 65px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 15px;
 }
