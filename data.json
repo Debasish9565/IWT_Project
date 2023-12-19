@@ -5,6 +5,12 @@
       "name": "Debasish",
       "password": "debasish",
       "id": 1
+    },
+    {
+      "email": "debasish95@gmail.com",
+      "name": "debasishnandi",
+      "password": "deb",
+      "id": 2
     }
   ]
 }
