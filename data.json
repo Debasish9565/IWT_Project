@@ -17,6 +17,12 @@
       "name": "debv",
       "password": "123",
       "id": 3
+    },
+    {
+      "email": "deb@gmail.com",
+      "name": "dev",
+      "password": "456",
+      "id": 4
     }
   ]
 }
