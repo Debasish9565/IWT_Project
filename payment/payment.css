@@ -146,7 +146,11 @@ button {
   background-color: greenyellow;
 }
 button:hover {
-  background-color: #444;
+  /*background-color: #444;*/
   color: white;
   cursor: pointer;
+  transition: 0.2s;
+}
+a {
+  text-decoration: none;
 }

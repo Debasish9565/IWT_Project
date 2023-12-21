@@ -84,3 +84,8 @@ cvv.addEventListener("keyup", function (e) {
     cvvBox.style.border = "1px solid greenyellow";
   }
 });
+
+function fun() {
+  alert("Payment Successful!");
+  window.location.href = "../index.html";
+}
