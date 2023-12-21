@@ -13,8 +13,8 @@
   
         <div>
           <ul id="navbar">
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="shop.html">Shop</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="shop.html">Shop</a></li>
             <li><a href="./blog/blog.html">Blog</a></li>
             <li><a href="./about/about.html">About</a></li>
             <li><a href="./contact/contact.html">Contact</a></li>
@@ -70,7 +70,7 @@
               Country of Origin:  <br>
               India.</p>
             <p class="product-price">Rs378</p>
-            <button class="add-to-cart-btn" onclick="addToCart()">Buy Now</button>
+            <button class="add-to-cart-btn" onclick="addToCart()" id="total">Buy Now</button>
         </div>
     </div>
 
@@ -226,9 +226,11 @@
       /*alert("Product added to cart!");*/
       window.location.href = "./payment/payment.html"
       // You can add additional logic for adding the product to the cart.
+      //window.location.href = "./cart/cartpage.html"
   }
-  
   </script>
+  <script src="./cart/cartpage.js"></script>
+
   </body>
 
 </html>
